@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Container Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3A3A4A;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 320px;
+    text-align: center;
+    background-color: #2A2A3A;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Header Styling */
+.header {
+    background-color: #3A3A4A;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Featured Game Section */
+.featured-game img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Latest Games Section */
+.latest-games {
+    padding: 15px;
+}
+
+.latest-games h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.game {
+    background-color: #4A4A5A;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.game img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.game p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* Content Section for FF Game Page */
+.content {
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 16px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #3A3A4A;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.contact a {
+    color: #1DA1F2;
+    text-decoration: none;
+}
